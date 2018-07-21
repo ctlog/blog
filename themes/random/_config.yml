@@ -54,14 +54,14 @@ stylesheets:
 
 # scripts loaded in the end of the body
 scripts:
-- /js/jquery-2.2.3.min.js
-- /js/vegas.min.js
+- /utils/jquery-2.2.3.min.js
+- /utils/vegas.min.js
 - /js/random.js
-- /js/highlight.pack.js
-- /js/jquery.mousewheel.pack.js
-- /js/jquery.fancybox.pack.js
-- /js/jquery.fancybox-thumbs.js
-- /js/plyr.js
+- /utils/highlight.pack.js
+- /utils/jquery.mousewheel.pack.js
+- /utils/jquery.fancybox.pack.js
+- /utils/jquery.fancybox-thumbs.js
+- /utils/plyr.js
 
 # ignore visitor statistics on special server, for example on you local computer or debugging server
 isIgnoreSpecialHostVisitor: true
@@ -90,7 +90,37 @@ backgroundImages:
 #  - http://data.14log.com/images/bg2.jpg
 #  - http://data.14log.com/images/bg3.jpg
 #  - http://data.14log.com/images/bg4.jpg
-
+- http://pic.xiudodo.com/figure/00/00/05/50/50/0555abffd0af062.jpg
+- http://www.deskier.com/uploads/allimg/170331/1-1F331162345.jpg
+- http://file.mumayi.com/forum/201503/27/231448dakatkg9eai94549.jpg
+- http://up.enterdesk.com/edpic_source/79/27/27/792727151808587895e4f8b526e997b7.jpg
+- http://attach.bbs.miui.com/forum/201311/11/140735knxh1c96x36z7huq.jpg
+- http://s9.knowsky.com/bizhi/l/1-5000/2009528125043264490484.jpg
+- http://bbsfiles.vivo.com.cn/vivobbs/attachment/forum/201708/09/113327k04zie4udedxxeud.jpg
+- http://p1.gexing.com/G1/M00/43/75/rBACFFH-Pp7Q9ZH_AAbUXDYljLw559.jpg
+- http://img0.imgtn.bdimg.com/it/u=3054800447,4006472243&fm=27&gp=0.jpg
+- http://img.pconline.com.cn/images/upload/upc/tx/wallpaper/1307/05/c0/22969541_1373004111608.jpg
+- http://img0.imgtn.bdimg.com/it/u=1612851451,2407296827&fm=27&gp=0.jpg
+- http://img2.ph.126.net/v_L_b0KxObCEz_H9E4e6Tw==/6598125297881003147.jpg
+- http://pic1.win4000.com/wallpaper/d/57f859b72a26d.jpg
+- http://pic.xiudodo.com/figure/00/00/08/59/31/6555b006e7004e3.jpg
+- http://img17.3lian.com/d/file/201702/23/2b6385fbe4e50a7421260c8faff925ae.jpg
+- http://img.pconline.com.cn/images/bbs4/20099/30/1254254743329.jpg
+- http://pic1.win4000.com/wallpaper/8/5485388f864fa.jpg
+- http://img2.imgtn.bdimg.com/it/u=1789237397,2626142662&fm=214&gp=0.jpg
+- http://pic1.win4000.com/wallpaper/6/583bfdf1b71a8.jpg
+- http://img17.3lian.com/d/file/201702/23/fa6409b8e1543a95e3c901b9c06bd3dd.jpg
+- http://images.missyuan.com/attachments/day_080820/20080820_02c5ba38dca565232456dmoKTc3jwn4d.jpg
+- http://img.pconline.com.cn/images/upload/upc/tx/wallpaper/1304/07/c0/19605641_1365315637557.jpg
+- http://img3.imgtn.bdimg.com/it/u=2181885098,2844774296&fm=214&gp=0.jpg
+- http://old.bz55.com/uploads/allimg/140720/138-140H0110332.jpg
+- http://ww2.sinaimg.cn/large/005SngIqjw1f0z1stzuq0j31hc0xcwkv.jpg
+- http://img770.ph.126.net/oVzFvEj6jtXTkV915j_vDg==/1242993497155629690.jpg
+- http://pic1.win4000.com/wallpaper/2/58a4161a30c36.jpg
+- http://pic1.win4000.com/wallpaper/0/55272438ca016.jpg
+- http://img17.3lian.com/d/file/201702/27/b5caf2cd065019ba3eee8f067abe5a62.jpg
+- http://i1.download.fd.pchome.net/g1/M00/0D/00/oYYBAFSFVcOIK-uRAAoF9Pw16MYAACJEwGn8QgACgYM730.jpg
+- http://pic1.win4000.com/wallpaper/d/5795b1e3e2785.jpg
 
 vegasConfig:
   # more about config http://vegas.jaysalvat.com/documentation/settings/
