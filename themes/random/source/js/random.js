@@ -159,19 +159,14 @@ function playBackground() {
     }
 
     // 从 https://unsplash.it 随机获取图片
-    for(var i = 1; i <= 10; i++) {
+    var imageCount = 10
+    for(var i = 1; i <= imageCount; i++) {
+      // slides.push({
+      //   src: ['https://unsplash.it', greyscale, '/', window.screen.availWidth, '/',window.screen.availHeight, '?random&t=', i, endWith].join('')
+      // });
       slides.push({
-        src: ['https://unsplash.it', greyscale, '/', window.screen.availWidth, '/',window.screen.availHeight, '?random&t=', i, endWith].join('')
-      });
-    }
-
-    var script = document.createElement('script');
-    script.src = 'http://data.14log.com/getpic.php?callback=cb';
-    document.body.appendChild(script);
-
-    function cb(data) {
-      console.log(data);
-      
+        src: ['https://www.14log.com/images/bg/' + i + '.jpg'].join('')
+      })
     }
 
   }
