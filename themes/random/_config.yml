@@ -54,14 +54,17 @@ stylesheets:
 
 # scripts loaded in the end of the body
 scripts:
-- /utils/jquery-2.2.3.min.js
-- /utils/vegas.min.js
+- /lib/jquery-2.2.3.min.js
+- /lib/vegas.min.js
 - /js/random.js
-- /utils/highlight.pack.js
-- /utils/jquery.mousewheel.pack.js
-- /utils/jquery.fancybox.pack.js
-- /utils/jquery.fancybox-thumbs.js
-- /utils/plyr.js
+- /lib/highlight.pack.js
+- /lib/jquery.mousewheel.pack.js
+- /lib/jquery.fancybox.pack.js
+- /lib/jquery.fancybox-thumbs.js
+- /lib/plyr.js
+- /lib/three/three.min.js
+- /lib/three/three-waves.min.js
+
 
 # ignore visitor statistics on special server, for example on you local computer or debugging server
 isIgnoreSpecialHostVisitor: true
@@ -88,7 +91,7 @@ vegasConfig:
   # more about config http://vegas.jaysalvat.com/documentation/settings/
   # animation: 'random'
   # transition: 'swirlRight'
-  preload­Image: true
+  preload­Image: false
   transition:
     - slideLeft2
     - slideRight2
